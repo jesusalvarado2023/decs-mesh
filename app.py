@@ -101,12 +101,12 @@ questions = [
     {
         "q": "Para hacer una búsqueda sensible y precisa en PubMed conviene:",
         "opts": [
-            "Combinar términos MeSH con operadores booleanos (AND, OR)",
-            "Usar solo palabras libres sin operadores",
-            "Buscar por el nombre del autor únicamente",
-            "Filtrar por color de portada de la revista"
+            "Filtrar por nivel del investigador o de la revista",
+            "Usar las palabras más importantes que encuentro al leer un artículo",
+            "Buscar por el nombre del autor o el identificador de objeto digital (DOI)",
+            "Combinar términos MeSH con operadores booleanos"
         ],
-        "ans": 0
+        "ans": 3
     }
 ]
 
