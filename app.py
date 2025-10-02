@@ -81,22 +81,22 @@ questions = [
     {
         "q": "¿Qué organiza MeSH de forma jerárquica?",
         "opts": [
-            "Temas en un árbol (árbol de categorías)",
-            "Autores de artículos",
             "Revistas científicas",
+            "Autores de artículos",
+            "Temas en árbol categorías",
             "Fechas de publicación"
         ],
-        "ans": 0
+        "ans": 2
     },
     {
         "q": "¿Cuál es una ventaja de usar DeCS en investigación regional?",
         "opts": [
+            "No admite búsquedas en inglés",
+            "Incluye información destacada de Europa, Asia y Africa",
             "Incluye términos relevantes para América Latina y el Caribe",
-            "Es exclusivo para Europa",
-            "No admite búsquedas en español",
-            "Sólo indexa artículos en inglés"
+            "Traduce los artículos a español, portugués e inglés"
         ],
-        "ans": 0
+        "ans": 2
     },
     {
         "q": "Para hacer una búsqueda sensible y precisa en PubMed conviene:",
