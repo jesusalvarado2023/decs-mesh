@@ -11,12 +11,12 @@ questions = [
     {
         "q": "¿Qué significa MeSH?",
         "opts": [
-            "Medical Subject Headings",
-            "Medical Search Heads",
             "Medicine Subject Headings",
+            "Medical Search Heads",
+            "Medical Subject Headings",
             "Metadata for Scientific Health"
         ],
-        "ans": 0
+        "ans": 2
     },
     {
         "q": "¿Qué organización creó DeCS?",
