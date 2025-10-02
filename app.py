@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Quiz DeCS & MeSH", page_icon=":mortar_board:")
 
 st.image("decsmesh.png")
-st.title("Quiz: DeCS y MeSH (10 preguntas)")
+st.title("Quiz: Herramientas Digitales para el Aprendizaje")
 st.write("Dr. Jesus Alvarado H.")
 st.info("Selecciona la respuesta que consideres correcta sobre DECS/MESH y pulsa 'Ver puntaje' 🎈")
 
