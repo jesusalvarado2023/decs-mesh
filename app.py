@@ -146,13 +146,10 @@ if st.button("Ver puntaje"):
     percent = int(score / total * 100)
     st.success(f"Obtuviste {score} / {total} ({percent}%)")
 
-    # Mostrar retroalimentación por pregunta
-    with st.expander("Ver retroalimentación por pregunta"):
-        for pnum, ok, correct_text in feedback:
-            if ok:
-                st.write(f"Pregunta {pnum}: ✅ Correcta")
-            else:
-                st.write(f"Pregunta {pnum}: ❌ Incorrecta — Respuesta correcta: **{correct_text}**")
+    # Mostrar retroalimentación general
+    with st.expander("Ver retroalimentación"):
+        st.write("Para repasar los temas revisa la guía oficial disponible en:")
+        st.markdown("[Guía DeCS y MeSH](https://github.com/jesusalvarado2023/decs-mesh/blob/main/Guia_DeCS_MeSH.pdf)")
 
     # Si acierta todas, mostrar globitos
     if score == total:
@@ -161,4 +158,4 @@ if st.button("Ver puntaje"):
 
 # Footer: instrucciones para profesores/estudiantes
 st.markdown("---")
-st.caption("Puedes editar las preguntas en el archivo `streamlit_decs_mesh_quiz.py` y subirlo a GitHub para compartir la app. Para un despliegue rápido usa Streamlit Community Cloud (https://streamlit.io/cloud)")
+st.caption("Recuerda valorar tu esfuerzo, el de tus compañeros y el de tus familiares, el tiempo que le dedicas a tus estudios debe ser tiempo de calidad, enfócate.")
