@@ -21,12 +21,12 @@ questions = [
     {
         "q": "¿Qué organización creó DeCS?",
         "opts": [
-            "WHO/PAHO/BIREME",
+            "World Bank",
             "National Library of Medicine (NLM)",
             "Cochrane Collaboration",
-            "World Bank"
+            "WHO/PAHO/BIREME"
         ],
-        "ans": 0
+        "ans": 3
     },
     {
         "q": "¿En qué bases de datos es especialmente útil DeCS?",
