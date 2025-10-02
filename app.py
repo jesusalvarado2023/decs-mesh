@@ -41,12 +41,12 @@ questions = [
     {
         "q": "¿Cuál es el propósito principal de usar términos MeSH/DeCS en búsquedas?",
         "opts": [
-            "Estandarizar términos para recuperar información de forma más precisa",
             "Aumentar el número de resultados irrelevantes",
+            "Estandarizar términos para búsquedas más precisas",
             "Reemplazar la lectura del artículo",
             "Traducir automáticamente artículos"
         ],
-        "ans": 0
+        "ans": 1
     },
     {
         "q": "¿Qué característica distingue a DeCS frente a MeSH?",
