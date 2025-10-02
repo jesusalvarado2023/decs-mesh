@@ -148,7 +148,7 @@ if st.button("Ver puntaje"):
 
     # Mostrar retroalimentación general
     with st.expander("Ver retroalimentación"):
-        st.write("Para repasar los temas revisa la guía oficial disponible en:")
+        st.write("Para repasar los temas revisa la guía disponible en:")
         st.markdown("[Guía DeCS y MeSH](https://github.com/jesusalvarado2023/decs-mesh/blob/main/Guia_DeCS_MeSH.pdf)")
 
     # Si acierta todas, mostrar globitos
