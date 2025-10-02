@@ -61,12 +61,12 @@ questions = [
     {
         "q": "En MeSH, ¿qué son los 'entry terms'?",
         "opts": [
-            "Sinónimos o formas de entrada que remiten al termino MeSH",
+            "Códigos numéricos de identificación",
             "Secciones del artículo",
             "Referencias bibliográficas",
-            "Códigos numéricos de identificación"
+            "Sinónimos que remiten al termino MeSH"
         ],
-        "ans": 0
+        "ans": 3
     },
     {
         "q": "Si buscas 'cáncer de mama' en PubMed usando MeSH, ¿cuál término MeSH es más apropiado?",
