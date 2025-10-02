@@ -71,12 +71,12 @@ questions = [
     {
         "q": "Si buscas 'cáncer de mama' en PubMed usando MeSH, ¿cuál término MeSH es más apropiado?",
         "opts": [
-            "Breast Neoplasms",
+            "Breast Disease",
             "Breast Cancerous Syndrome",
             "Mammary Tumor Disorder",
-            "Breast Disease"
+            "Breast Neoplasms"
         ],
-        "ans": 0
+        "ans": 3
     },
     {
         "q": "¿Qué organiza MeSH de forma jerárquica?",
