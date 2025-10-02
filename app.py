@@ -3,9 +3,9 @@ import streamlit as st
 st.set_page_config(page_title="Quiz DeCS & MeSH", page_icon=":mortar_board:")
 
 st.image("decsmesh.png")
-st.title("Quiz: Herramientas Digitales para el Aprendizaje")
-st.write("Dr. Jesus Alvarado H.")
-st.info("Selecciona la respuesta que consideres correcta sobre DECS/MESH y pulsa 'Ver puntaje' 🎈")
+st.title("Herramientas Digitales para el Aprendizaje")
+st.write("Quiz - Dr. Jesus Alvarado H.")
+st.info("Selecciona la alternativa correcta y pulsa 'Ver puntaje' 🎈")
 
 # Lista de preguntas (texto corto, 4 opciones cada una, índice de respuesta correcta)
 questions = [
